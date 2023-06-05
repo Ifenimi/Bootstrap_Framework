@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titanic Barbershop</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="maker.css">
+  <link rel="icon" href="favicona.ico">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" aria-label="navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo2.png" alt="Barbershop Logo" class="logo">TITANIC BARBERSHOP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+      aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav me-auto mb-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carouselExampleControls">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#barbers" tabindex="-1" aria-disabled="true">Barbers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown">
+              <li><a class="dropdown-item" href="#about">Mission and Vision</a></li>
+              <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form>
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner Section -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="slide-image">
+          <img src="slide1.png" alt="Slide Image">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Welcome to Titanic's Barbershop</h1>
+                  <p><em>Get the best haircut and grooming services by our expert barbers.</p></em>
+                  <a href="#services" class="btn btn-primary">Book an Appointment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="slide-image">
+          <img src="slide2.png" alt="Slide Image">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Unleash Your Style</h1>
+                  <p><em>Step into the realm of grooming excellence.</em></p>
+                  <a href="#services" class="btn btn-primary">Book an Appointment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="slide-image">
+          <img src="slide3.png" alt="Slide Image">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Impeccable Services</h1>
+                  <p><em>Just a click away</p></em>
+                  <a href="#services" class="btn btn-primary">Book an Appointment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image1.png" class="card-img-top" alt="Service 1">
+            <div class="card-body">
+              <h5 class="card-title">Haircut</h5>
+              <p class="card-text">Get a trendy haircut from our professional barbers.</p>
+              <a href="#pricing" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image2.png" class="card-img-top" alt="Service 2">
+            <div class="card-body">
+              <h5 class="card-title">Beard Trim</h5>
+              <p class="card-text">Get your beard trimmed and styled by our experts.</p>
+              <a href="#pricing" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image3.png" class="card-img-top" alt="Service 3">
+            <div class="card-body">
+              <h5 class="card-title">Shave</h5>
+              <p class="card-text">Experience a classic shave with hot towels and straight razors.</p>
+              <a href="#pricing" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Barbers Section -->
+  <section id="barbers">
+    <div class="container">
+      <h2>Our Barbers</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Mr Adedamola.png" class="card-img-top" alt="Barber 1">
+            <div class="card-body">
+              <h5 class="card-title">Mr Adedamola</h5>
+              <p class="card-text">Specializes in modern and trendy hairstyles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Mr Monday.png" class="card-img-top" alt="Barber 2">
+            <div class="card-body">
+              <h5 class="card-title">Mr Monday</h5>
+              <p class="card-text">Expert in beard styling and grooming.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Mr Isaac.png" class="card-img-top" alt="Barber 3">
+            <div class="card-body">
+              <h5 class="card-title">Mr Isaac</h5>
+              <p class="card-text">Skilled in shaves and hot towel treatments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Table Section -->
+  <section id="pricing">
+    <div class="container">
+      <form method="post">
+        <h2>Pricing</h2>
+        <h5>Select your preferred choice</h5>
+        <table>
+          <tr>
+            <th>Service</th>
+            <th>Price</th>
+            <th>&nbsp</th>
+          </tr>
+          <tr>
+            <td>Haircut</td>
+            <td>$100</td>
+            <td>
+              <input type="radio" name="pick_price" value="haircut"><br>
+            </td>
+          </tr>
+          <tr>
+            <td>Beard Trim</td>
+            <td>$50</td>
+            <td>
+              <input type="radio" name="pick_price" value="trim">
+            </td>
+          </tr>
+          <tr>
+            <td>Shave</td>
+            <td>$70</td>
+            <td>
+              <input type="radio" name="pick_price" value="shave">
+            </td>
+          </tr>
+        </table>
+      </form>
+      <a href="#contact"><button type="submit">Done</button></a>
+    </div>
+  </section>
+
+  <!-- Mision and Vision -->
+  <section id="about">
+    <div class="container">
+      <h2 class="text-center">Mission and Vision</h2>
+      <h5>Mission Statement:</h5>
+        <q>Providing exceptional grooming experiences that empower our clients to look and feel their best, while fostering a welcoming and inclusive environment.</q>
+        <br>
+
+        <h5>Vision Statement:</h5>
+      <q>To become the go-to barbershop, known for its skilled artisans, cutting-edge techniques, and unparalleled customer service, creating a community of confident individuals who embrace their unique style.</q>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <h5>Book an Appointment</h5>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+          </form>
+        </div>
+        <div class="info ps-3 col-md-6">
+          <!--Add contact information-->
+          <h5>For sponsorship or inquiries, please reach out to us:</h5>
+          <ul>
+            <li>Phone: 07025344878</li>
+            <li>Whatsapp: 07064638900</li>
+            <li>Linked In: @Damdanshola</li>
+            <li>Email: damdanshola@gmail.com</li>
+            <li>Office Address: Odi-Olowo axis, Ikole Ekiti. Ekiti State</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white text-center py-4">
+    <div class="container">
+      <span>&copy; 2023 Titanic Barbershop. All rights reserved.</span>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
